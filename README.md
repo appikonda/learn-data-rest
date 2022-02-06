@@ -15,7 +15,7 @@ After starting the application, navigate to http://localhost:8080/h2, which will
 
 login with credentials in application.properties
 
-create table and insert data using the data.sql script from main/resources
+create table and insert data using the sql script from ```main/resources/data.sql```
 
 ### API
 
@@ -24,11 +24,11 @@ http://localhost:8080/
 
 
 
-GET  users  http://localhost:8080/users
+GET  - users  http://localhost:8080/users
 
-POST users http://localhost:8080/users
+POST - users http://localhost:8080/users
 
- sample request:
+POST request:
  
 ```
 {
@@ -46,9 +46,9 @@ POST users http://localhost:8080/users
 
 ```
  
- PATCH  users  http://localhost:8080/users/{id}
+ PATCH -  users  http://localhost:8080/users/{id}
  
- sample request:
+ PATCH request:
 
  ```
  
